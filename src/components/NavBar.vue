@@ -3,6 +3,7 @@
     <div class="container nav-inner">
       <a href="#hero" class="logo">Portfolio</a>
       <ul class="nav-links">
+        <li><a href="#career" @click="close">경력</a></li>
         <li><a href="#skills" @click="close">기술 스택</a></li>
         <li><a href="#projects" @click="close">프로젝트</a></li>
         <li><a href="#education" @click="close">학력</a></li>
@@ -12,6 +13,7 @@
       </button>
     </div>
     <div class="mobile-menu" :class="{ open: menuOpen }">
+      <a href="#career" @click="close">경력</a>
       <a href="#skills" @click="close">기술 스택</a>
       <a href="#projects" @click="close">프로젝트</a>
       <a href="#education" @click="close">학력</a>
