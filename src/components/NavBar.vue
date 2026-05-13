@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar scrolled">
+  <nav class="navbar" :class="{ scrolled: isScrolled }">
     <div class="container nav-inner">
       <a href="#hero" class="logo">Portfolio</a>
       <ul class="nav-links">
@@ -22,13 +22,21 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 
+const isScrolled = ref(false)
 const menuOpen = ref(false)
+
+function onScroll() {
+  isScrolled.value = window.scrollY > 40
+}
 
 function close() {
   menuOpen.value = false
 }
+
+onMounted(() => window.addEventListener('scroll', onScroll))
+onUnmounted(() => window.removeEventListener('scroll', onScroll))
 </script>
 
 <style scoped>
