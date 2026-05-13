@@ -58,7 +58,7 @@ const skillGroups = [
     label: '테스트1 / 테스트 데이터',
     icon: '🐳',
     color: '#ff7b72',
-    skills: ['Docker', 'Docker Compose', 'Rocky Linux', 'AWS Linux'],
+    skills: ['Docker'],
   },
 ]
 </script>
