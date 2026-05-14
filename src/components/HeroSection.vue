@@ -14,22 +14,8 @@
         </div>
       </div>
       <div class="hero-deco" aria-hidden="true">
-        <div class="code-block">
-          <div class="code-header">
-            <span class="dot red" /><span class="dot yellow" /><span class="dot green" />
-          </div>
-          <pre><code><span class="kw">class</span> <span class="cn">Developer</span> {
-  <span class="fn">name</span> = <span class="st">"백엔드 개발자"</span>
-  <span class="fn">school</span> = <span class="st">"서울대학교"</span>
-  <span class="fn">major</span> = <span class="st">"소프트웨어학과"</span>
-
-  <span class="fn">skills</span> = [
-    <span class="st">"Spring Boot"</span>, <span class="st">"Java"</span>,
-    <span class="st">"Docker"</span>, <span class="st">"Vue.js"</span>,
-  ]
-
-  <span class="fn">domains</span> = [<span class="st">"금융"</span>, <span class="st">"의료"</span>, <span class="st">"공공"</span>]
-}</code></pre>
+        <div class="profile-wrap">
+          <img src="../assets/hero.png" alt="프로필 이미지" class="profile-img" />
         </div>
       </div>
     </div>
@@ -127,46 +113,23 @@
   transform: translateY(-2px);
 }
 
-/* Code block decoration */
-.code-block {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  overflow: hidden;
-  box-shadow: var(--shadow);
+/* Profile image */
+.profile-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   animation: fadeInUp 0.7s 0.3s ease both;
 }
 
-.code-header {
-  display: flex;
-  gap: 8px;
-  padding: 12px 16px;
-  background: rgba(255,255,255,0.03);
-  border-bottom: 1px solid var(--border);
+.profile-img {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  display: block;
 }
-
-.dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-}
-
-.dot.red { background: #ff5f57; }
-.dot.yellow { background: #febc2e; }
-.dot.green { background: #28c840; }
-
-pre {
-  padding: 24px;
-  font-family: 'Cascadia Code', 'Fira Code', monospace;
-  font-size: 0.85rem;
-  line-height: 1.8;
-  overflow-x: auto;
-}
-
-code .kw { color: var(--accent-red); }
-code .cn { color: var(--accent-orange); }
-code .fn { color: var(--accent); }
-code .st { color: var(--accent-green); }
 
 /* Background orbs */
 .hero-bg {
