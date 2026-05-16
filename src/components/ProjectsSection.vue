@@ -1,7 +1,7 @@
 <template>
   <section id="projects" class="projects-section">
     <div class="container">
-      <h2 class="section-title">참여 프로젝트</h2>
+      <h2 class="section-title">🛠️ 참여한 프로젝트</h2>
       <div class="projects-grid">
         <article v-for="(project, i) in projects" :key="i" class="project-card">
           <div class="card-top">
