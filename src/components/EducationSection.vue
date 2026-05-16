@@ -1,12 +1,12 @@
 <template>
   <section id="education">
     <div class="container">
-      <div><h2 class="section-title"><img src="../assets/testImage3.png" style="max-width: 100% !important; height: auto !important; border-radius: 4px !important; display: inline-block !important; vertical-align: middle !important;"><br></h2></div>
+      <div><h2 class="section-title"><br></h2></div>
       <h2 class="section-title">학력</h2>
       <div class="edu-card">
         <div class="edu-icon">🎓</div>
         <div class="edu-info">
-          <h3>서울대학교</h3>
+          <h3>국민대학교</h3>
           <p class="major">소프트웨어학부 소프트웨어학과</p>
           <p class="detail">Seoul, Korea</p>
         </div>
