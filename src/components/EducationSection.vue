@@ -1,6 +1,7 @@
 <template>
   <section id="education">
     <div class="container">
+      <div><h2 class="section-title"><br></h2></div>
       <h2 class="section-title">학력</h2>
       <div class="edu-card">
         <div class="edu-icon">🎓</div>
