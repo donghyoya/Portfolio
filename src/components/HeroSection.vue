@@ -20,7 +20,7 @@
           </div>
           <pre><code><span class="kw">class</span> <span class="cn">Developer</span> {
   <span class="fn">name</span> = <span class="st">"백엔드 개발자"</span>
-  <span class="fn">school</span> = <span class="st">"국민대학교"</span>
+  <span class="fn">school</span> = <span class="st">"서울대학교"</span>
   <span class="fn">major</span> = <span class="st">"소프트웨어학과"</span>
 
   <span class="fn">skills</span> = [
