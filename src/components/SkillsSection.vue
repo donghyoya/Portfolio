@@ -28,7 +28,7 @@ const skillGroups = [
     label: '백엔드',
     icon: '⚙️',
     color: '#58a6ff',
-    skills: ['Java', 'Spring', 'Spring Boot', 'Python', 'FastAPI'],
+    skills: ['Java', 'Spring', 'Spring Boot', 'Python', 'FastAPI', 'C', 'C++'],
   },
   {
     label: '데이터베이스',
