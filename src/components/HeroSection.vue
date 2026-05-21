@@ -25,7 +25,7 @@
 
   <span class="fn">skills</span> = [
     <span class="st">"Spring Boot"</span>, <span class="st">"Java"</span>,
-    <span class="st">"Docker"</span>, <span class="st">"Vue.js"</span>,
+    <span class="st">"Python"</span>, <span class="st">"Docker"</span>, <span class="st">"Vue.js"</span>,
   ]
 
   <span class="fn">domains</span> = [<span class="st">"금융"</span>, <span class="st">"의료"</span>, <span class="st">"공공"</span>]
