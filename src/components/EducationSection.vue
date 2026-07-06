@@ -6,7 +6,7 @@
       <div class="edu-card">
         <div class="edu-icon">🎓</div>
         <div class="edu-info">
-          <h3>국민대학교</h3>
+          <h3>서울대학교</h3>
           <p class="major">소프트웨어학부 소프트웨어학과</p>
           <p class="detail">Seoul, Korea</p>
         </div>
