@@ -34,7 +34,7 @@ const skillGroups = [
     label: '데이터베이스',
     icon: '🗄️',
     color: '#3fb950',
-    skills: ['MySQL', 'MariaDB', 'PostgreSQL', 'Redis'],
+    skills: ['MySQL', 'MariaDB', 'PostgreSQL', 'Redis', 'Tibero'],
   },
   {
     label: '프론트엔드',
@@ -46,7 +46,7 @@ const skillGroups = [
     label: '서버 / 미들웨어',
     icon: '🖧',
     color: '#f0883e',
-    skills: ['Tomcat', 'JEUS', 'Tmax'],
+    skills: ['Tomcat', 'JEUS', 'Tmax', 'Nginx', 'Apache'],
   },
   {
     label: '인프라 / DevOps',

@@ -27,6 +27,12 @@ const domainLabel = {
 
 const projects = [
   {
+    name: '강릉 ITS 구축',
+    desc: 'AI 기반 능동형 상황판 개발. 실시간으로 데이터를 수집하면서 특정 데이터의 이상 징후와 영상검지를 통해 상황판 화면을 자동으로 변형하고, 해당 상황에 맞게 표출하는 서비스 개발.',
+    domain: 'public',
+    tags: ['JEUS', 'Tibero', 'Spring', 'Java', 'Tomcat', 'Kafka', 'Impala', 'Python'],
+  },
+  {
     name: '우리금융저축은행',
     desc: '우리금융저축은행 핵심 업무 시스템 구축 및 운영 유지보수. 안정적인 금융 서비스 제공을 위한 서버 환경 관리 및 장애 대응.',
     domain: 'finance',
