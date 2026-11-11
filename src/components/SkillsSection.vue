@@ -54,12 +54,6 @@ const skillGroups = [
     color: '#ff7b72',
     skills: ['Docker', 'Docker Compose', 'Rocky Linux', 'AWS Linux'],
   },
-  {
-    label: 'r강민구/ 강동우',
-    icon: '🐳',
-    color: '#ff7b72',
-    skills: ['Docker'],
-  },
 ]
 </script>
 
