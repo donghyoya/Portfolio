@@ -40,7 +40,7 @@ const careers = [
     duration: '재직 중',
     current: true,
     desc: '백엔드 시스템 개발 및 운영. 안정적인 서비스 제공을 위한 서버 아키텍처 설계 및 인프라 관리.',
-    tags: ['Spring Boot', 'Java', 'Docker', 'Vue.js'],
+    tags: ['Spring Boot', 'Java', 'Vue.js', 'Redis', 'Kafka', 'JEUS', 'Tomcat', 'Tibero', 'MariaDB', 'Impala'],
   },
   {
     company: '오상테크놀로지',
